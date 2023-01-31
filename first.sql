@@ -1,6 +1,6 @@
 CREATE DATABASE global;
 CREATE TABLE country (
-  country_id INT PRIMARY KEY,
+  country_id VARCHAR(50)PRIMARY KEY,
   country_name VARCHAR(50) NOT NULL,
   region_id INT NOT NULL
 );
